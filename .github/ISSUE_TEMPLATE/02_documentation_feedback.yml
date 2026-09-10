@@ -1,0 +1,110 @@
+name: "文書Feedback / Documentation Feedback"
+description: "Overout公式文書の誤り、不足、分かりにくい記述を報告します。 Report errors, omissions, or unclear content in official Overout documentation."
+title: "[Docs] "
+labels:
+  - documentation
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 投稿前の確認 / Before submitting
+
+        このIssueは公開されます。個人情報、購入情報、認証情報、機密Clipboard Text、非公開情報を含めないでください。
+        This Issue is public. Do not include personal, purchase, authentication, confidential Clipboard, or other non-public information.
+
+        EULA、購入、Founder Support、Privacy等の非公開相談:
+        https://github.com/GeneSIS-Public/Overout/blob/main/docs/CONTACT_AND_SUPPORT.md
+
+  - type: checkboxes
+    id: precheck
+    attributes:
+      label: "事前確認 / Pre-submission checks"
+      options:
+        - label: "既存Issueを検索し、同じ文書報告がないことを確認しました。 / I searched existing Issues for the same documentation report."
+          required: true
+        - label: "公開してはいけない情報を含めていません。 / I have not included information that should remain private."
+          required: true
+        - label: "未修正のSecurity問題ではありません。 / This is not an unresolved Security issue."
+          required: true
+
+  - type: dropdown
+    id: document
+    attributes:
+      label: "対象文書 / Affected document"
+      options:
+        - "Repository README"
+        - "Documentation Index"
+        - "Release Information"
+        - "Release Verification"
+        - "Known Limitations"
+        - "EULA"
+        - "Third-Party Software Notices"
+        - "Contact and Support"
+        - "Privacy Notice"
+        - "Security Policy"
+        - "Changelog"
+        - "Issue Forms"
+        - "Other / その他"
+    validations:
+      required: true
+
+  - type: input
+    id: location
+    attributes:
+      label: "対象箇所 / Affected section"
+      description: "File名、見出し、節、Link等を記載してください。 Identify the filename, heading, section, or link."
+      placeholder: "Example: docs/KNOWN_LIMITATIONS.md — Section 6"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: feedback_type
+    attributes:
+      label: "Feedbackの種類 / Feedback type"
+      options:
+        - "誤り / Incorrect information"
+        - "不足 / Missing information"
+        - "曖昧・分かりにくい / Ambiguous or unclear"
+        - "Link切れ / Broken link"
+        - "日本語・英語間の差異 / Japanese-English inconsistency"
+        - "誤字・表記 / Typo or notation"
+        - "Formatting"
+        - "その他 / Other"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: language
+    attributes:
+      label: "対象言語 / Affected language"
+      options:
+        - "日本語版 / Japanese"
+        - "英語版 / English"
+        - "両方 / Both"
+        - "言語に依存しない / Language-independent"
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: "問題の内容 / Description of the problem"
+      description: "現在の記述にどのような問題があるか説明してください。 Explain what is incorrect, missing, or unclear."
+    validations:
+      required: true
+
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: "修正案 / Suggested correction"
+
+  - type: textarea
+    id: impact
+    attributes:
+      label: "影響・理由 / Impact or reason"
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: "補足 / Additional context"

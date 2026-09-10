@@ -1,0 +1,10 @@
+blank_issues_enabled: false
+
+contact_links:
+  - name: "Security報告案内 / Security Reporting Instructions"
+    url: "https://github.com/GeneSIS-Public/Overout/security/policy"
+    about: "未修正脆弱性を公開せず、Security Policyの非公開報告経路を確認してください。 Do not disclose an unresolved vulnerability publicly; review the private reporting instructions."
+
+  - name: "非公開連絡案内 / Private Contact Instructions"
+    url: "https://github.com/GeneSIS-Public/Overout/blob/main/docs/CONTACT_AND_SUPPORT.md"
+    about: "購入、Founder Support、EULA、権利、Privacy、非公開不具合等はこちらを確認してください。 Use this route for purchases, Founder Support, EULA, rights, Privacy, or other private inquiries."

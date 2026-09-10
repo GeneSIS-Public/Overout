@@ -1,0 +1,91 @@
+name: "開発Feedback / Development Feedback"
+description: "Overoutの機能、Workflow、Compatibility、UI等に関する公開可能な提案を送ります。 Suggest a publicly discussable improvement to Overout."
+title: "[Feedback] "
+labels:
+  - enhancement
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 投稿前の確認 / Before submitting
+
+        このFormは公開可能なDevelopment Feedback用です。
+        Use this form for publicly discussable Development Feedback.
+
+        提案の受付は、採用、実装、返信、実装時期または将来Releaseへの収録を保証しません。
+        Submission does not guarantee acceptance, implementation, a reply, a schedule, or inclusion in a future Release.
+
+        購入情報、Founder情報、個人情報、認証情報、機密Clipboard Text、非公開Security情報を含めないでください。
+
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: "投稿確認 / Submission confirmation"
+      options:
+        - label: "この提案は公開して問題ない内容です。 / I confirm that this proposal is safe to discuss publicly."
+          required: true
+        - label: "Release InformationとKnown Limitationsを確認しました。 / I reviewed the Release Information and Known Limitations."
+          required: true
+        - label: "投稿が実装・返信・提供時期を保証しないことを理解しています。 / I understand that submission does not guarantee implementation, a reply, or a delivery date."
+          required: true
+        - label: "未修正脆弱性その他の非公開Security問題ではありません。 / This is not an unresolved vulnerability or another non-public Security matter."
+          required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: "Feedback分類 / Feedback category"
+      options:
+        - "SALVAGE Workflow"
+        - "ACTIVE / PASSIVE acquisition"
+        - "PREPARATION Workflow"
+        - "Editing / Shared Document Buffer"
+        - "P.R.E.S.S. / Keyboard operation"
+        - "C.O.D.E.C. / I.C. Move"
+        - "Detection / Search / Structural Intervention"
+        - "File Output / Data handling"
+        - "User interface / Usability"
+        - "Windows / IME compatibility"
+        - "Performance"
+        - "Documentation"
+        - "Other / その他"
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: "課題・必要性 / Problem or need"
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: "提案内容 / Proposed improvement"
+    validations:
+      required: true
+
+  - type: textarea
+    id: benefit
+    attributes:
+      label: "期待する効果 / Expected benefit"
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: "現在の回避方法・代替案 / Alternatives considered"
+
+  - type: textarea
+    id: compatibility
+    attributes:
+      label: "Compatibility・移行への影響 / Compatibility or migration impact"
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: "補足 / Additional context"
+      description: "公開して安全な追加情報だけを記載してください。 Include only publicly safe information."

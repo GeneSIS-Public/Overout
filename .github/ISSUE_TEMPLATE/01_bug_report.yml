@@ -1,0 +1,170 @@
+name: "技術的不具合 / Technical Bug Report"
+description: "公開可能で再現性のあるOveroutの技術的不具合を報告します。 Report a publicly shareable and reproducible technical problem in Overout."
+title: "[Bug] "
+labels:
+  - bug
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 投稿前の確認 / Before submitting
+
+        このIssueは公開されます。個人情報、購入情報、認証情報、機密Clipboard Text、非公開File、未修正脆弱性の詳細を投稿しないでください。
+
+        This Issue is public. Do not post personal information, purchase information, credentials, confidential Clipboard text, non-public files, or details of an unresolved vulnerability.
+
+        Security上の懸念は公開せず、Security Policyの非公開経路を使用してください。
+        https://github.com/GeneSIS-Public/Overout/security/policy
+
+  - type: checkboxes
+    id: precheck
+    attributes:
+      label: "事前確認 / Pre-submission checks"
+      options:
+        - label: "既存Issueを検索し、同じ報告がないことを確認しました。 / I searched existing Issues and did not find the same report."
+          required: true
+        - label: "Known Limitationsを確認しました。 / I reviewed the Known Limitations."
+          required: true
+        - label: "公開してはいけない情報を含めていません。 / I have not included information that should remain private."
+          required: true
+        - label: "未修正のSecurity問題ではありません。 / This is not an unresolved Security issue."
+          required: true
+
+  - type: dropdown
+    id: version
+    attributes:
+      label: "Overout Version / Overout version"
+      description: "問題を確認したVersionを選択してください。 Select the version where the issue occurred."
+      options:
+        - "Overout v1.0.0"
+        - "Other / その他"
+        - "Unknown / 不明"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: distribution
+    attributes:
+      label: "取得経路 / Distribution route"
+      description: "注文番号や購入者情報は記載しないでください。 Do not include order numbers or purchaser information."
+      options:
+        - "GeneSIS公式BOOTH — Standalone"
+        - "G.E.N.E Founder Support — Additional Deliverable"
+        - "Other / その他"
+        - "Unknown / 不明"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: "問題の分類 / Issue category"
+      options:
+        - "起動・終了 / Startup or shutdown"
+        - "SALVAGE / Clipboard acquisition"
+        - "ACTIVE / PASSIVE acquisition"
+        - "Shared Document Buffer"
+        - "Undo Last Capture"
+        - "PREPARATION / Editing"
+        - "P.R.E.S.S."
+        - "C.O.D.E.C. / I.C. Move"
+        - "Blank / Layer Detection"
+        - "Word Search / Structural Intervention"
+        - "File Output"
+        - "Config / Preferences"
+        - "UI・表示 / UI or display"
+        - "性能 / Performance"
+        - "その他 / Other"
+    validations:
+      required: true
+
+  - type: textarea
+    id: windows_environment
+    attributes:
+      label: "Windows環境 / Windows environment"
+      description: "完全なLocal PathやLocal Usernameは含めないでください。 Do not include full local paths or local usernames."
+      placeholder: |
+        Windows version and edition:
+        OS build:
+        CPU:
+        RAM:
+        Display scaling (if relevant):
+        Other relevant environment details:
+    validations:
+      required: true
+
+  - type: textarea
+    id: summary
+    attributes:
+      label: "問題の概要 / Problem summary"
+      description: "何が起きたかを簡潔に説明してください。 Briefly describe what happened."
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: "再現手順 / Steps to reproduce"
+      description: "秘密情報を含まない最小の再現手順を記載してください。 Provide the smallest reproducible sequence without confidential data."
+      placeholder: |
+        1. Start Overout.
+        2. ...
+        3. ...
+        4. Observe ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: "期待した動作 / Expected behavior"
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: "実際の動作 / Actual behavior"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: frequency
+    attributes:
+      label: "再現頻度 / Reproduction frequency"
+      options:
+        - "毎回 / Every time"
+        - "頻繁 / Frequently"
+        - "時々 / Sometimes"
+        - "一度だけ / Once"
+        - "不明 / Unknown"
+    validations:
+      required: true
+
+  - type: textarea
+    id: verification
+    attributes:
+      label: "Package確認 / Package verification"
+      description: "任意。Release Verificationを実施した場合だけ結果を記載してください。 Optional."
+      placeholder: |
+        ZIP SHA-256 checked: Yes / No
+        EXE SHA-256 checked: Yes / No
+        Result: Match / Mismatch / Not checked
+
+  - type: textarea
+    id: public_material
+    attributes:
+      label: "公開可能なLog・画面情報 / Publicly shareable logs or screenshots"
+      description: "秘密情報、個人情報、Local Username、完全なLocal Path、機密Clipboard Textを除去してください。 Remove secrets and private data."
+
+  - type: textarea
+    id: workaround
+    attributes:
+      label: "確認済みの回避方法 / Confirmed workaround"
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: "補足 / Additional context"
+      description: "公開して安全な追加情報だけを記載してください。 Add only information safe to publish."

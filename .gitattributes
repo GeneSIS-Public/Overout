@@ -1,0 +1,9 @@
+.gitattributes text eol=lf
+*.md text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+
+# docs/EULA.md is a byte-for-byte synchronized copy of the
+# authoritative EULA.txt included in the official Overout v1.0.0 package.
+# Disable Git text/EOL normalization for this file.
+docs/EULA.md -text -eol
