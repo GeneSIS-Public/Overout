@@ -14,7 +14,7 @@ This document records public-release-level changes affecting users. Internal dev
 
 There are currently no unreleased Product changes to the fixed Overout v1.0.0 Release Package.
 
-## [v1.0.0] — Pending Public Release
+## [v1.0.0] — 2026-09-11
 
 | Item | Details |
 |---|---|
@@ -25,11 +25,11 @@ There are currently no unreleased Product changes to the fixed Overout v1.0.0 Re
 | Platform | `Windows x64` |
 | Application | `Overout.exe` |
 | Release Package | `Overout_v1.0.0_Windows_x64.zip` |
-| Distribution | GeneSIS Official BOOTH — Preparing <!-- PLACEHOLDER: BOOTH_OVEROUT --> |
-| Public Release Date | Pending <!-- PLACEHOLDER: PUBLIC_RELEASE_DATE --> |
+| Distribution | GeneSIS Official BOOTH — https://genesis-protocol.booth.pm/items/8828676 |
+| Public Release Date | 2026-09-11 |
 | Source Code | Not Publicly Released |
 
-Overout v1.0.0 is the first official Release Package produced through `Operation: Protocol-Overout` and is being prepared for public distribution.
+Overout v1.0.0 is the first official Release Package produced through `Operation: Protocol-Overout` and was publicly released on 2026-09-11.
 
 ### Added
 
@@ -41,7 +41,7 @@ ACTIVE and PASSIVE both perform Salvaging. SALVAGE and PREPARATION use the same 
 
 ### Distribution
 
-The official binary channel is the GeneSIS Official BOOTH. GitHub provides Public Documentation and verification information. G.E.N.E Founder Support purchasers receive the same Release Build as an Additional Deliverable. No Founder-only binary is created. Source code is not public.
+The official binary channel is the GeneSIS Official BOOTH. GitHub provides Public Documentation and verification information. Project: Code-NOAH Phase 1 Founder Support purchasers receive the same Release Build as an Additional Deliverable. No Founder-only binary is created. Source code is not public.
 
 ### Verification / Limitations / Security
 

@@ -3,18 +3,18 @@
 [English](./RELEASE_INFORMATION_EN.md)
 
 - **Document Version:** 1.0
-- **Status:** Release Package Fixed / Public Distribution Preparing
+- **Status:** Release Package Fixed / Public Distribution Active
 - **Published By:** GeneSIS
 - **Applicable Project:** `Project: Code-NOAH`
 - **Applicable Operation:** `Operation: Protocol-Overout`
 - **Product:** `Overout`
 - **Version:** `v1.0.0`
 - **Target Platform:** `Windows x64`
-- **Public Release Date:** 準備中 <!-- PLACEHOLDER: PUBLIC_RELEASE_DATE -->
+- **Public Release Date:** 2026-09-11
 
 > 本書の日本語版を原文として管理します。英語版との間に解釈上の差異がある場合は、日本語版を優先します。
 
-> 本書は固定済みRelease Packageの公開準備情報です。BOOTH上で一般配布が開始されるまで、Public Release開始を示すものではありません。
+> Overout v1.0.0は2026-09-11に一般公開されました。本書は固定済みRelease Packageの正式なPublic Release情報です。
 
 ## 1. Release概要
 
@@ -33,7 +33,7 @@
 
 Standalone Product URL：
 
-準備中 <!-- PLACEHOLDER: BOOTH_OVEROUT -->
+https://genesis-protocol.booth.pm/items/8828676
 
 正式Release Package：
 
@@ -112,11 +112,11 @@ File Outputで現在のShared Document BufferをLocal Fileへ出力できます�
 
 ## 6. Distribution
 
-正式BinaryはGeneSIS公式BOOTHから配布します。
+正式BinaryはGeneSIS公式BOOTHで配布しています。
 
 GitHub Repositoryでは`Overout.exe`または正式Release ZIPを配布しません。
 
-Standalone購入者とG.E.N.E Founder Support購入者向けAdditional Deliverableで、別Build / Founder-only Binaryは作成しません。同一の固定済みOverout v1.0.0 Release Buildを提供します。
+Standalone購入者向け配布と、Project: Code-NOAH Phase 1 Founder Support購入者向けAdditional Deliverableでは、別Build / Founder-only Binaryを作成しません。同一の固定済みOverout v1.0.0 Release Buildを提供します。
 
 ## 7. Release / Update Policy
 

@@ -16,8 +16,8 @@ Browser、Editor、Chatなどで行う通常のCopy操作を利用してTextを�
 | Version | `v1.0.0` |
 | Platform | `Windows x64` |
 | Application | `Overout.exe` |
-| Status | Release Package Fixed / Public Distribution Preparing |
-| Public Release Date | 準備中 <!-- PLACEHOLDER: PUBLIC_RELEASE_DATE --> |
+| Status | Release Package Fixed / Public Distribution Active |
+| Public Release Date | 2026-09-11 |
 | Standalone Price | `¥1,000` |
 | Source Code | Not Publicly Released |
 
@@ -25,16 +25,16 @@ Browser、Editor、Chatなどで行う通常のCopy操作を利用してTextを�
 
 ## Download / Purchase
 
-Overout v1.0.0の正式Binaryは、GeneSIS公式BOOTHから配布します。
+Overout v1.0.0の正式Binaryは、GeneSIS公式BOOTHから配布しています。
 
-**Standalone Product:** 準備中 <!-- PLACEHOLDER: BOOTH_OVEROUT -->
+**Standalone Product:** https://genesis-protocol.booth.pm/items/8828676
 
 GitHub Repositoryでは、`Overout.exe`または正式Release ZIPを配布しません。
 
-既存のG.E.N.E Founder Support購入者には、Standalone版と**同一のOverout v1.0.0 Release Build**をSupplemental / Additional Deliverableとして提供します。Founder専用Binaryは作成しません。
+既存のProject: Code-NOAH Phase 1 Founder Support購入者には、Standalone版と**同一のOverout v1.0.0 Release Build**をSupplemental / Additional Deliverableとして提供しています。Founder専用Binaryは作成しません。
 
 - [GeneSIS BOOTH](https://genesis-protocol.booth.pm/)
-- [G.E.N.E Founder Support](https://genesis-protocol.booth.pm/items/8664431)
+- [Project: Code-NOAH Phase 1 Founder Support](https://genesis-protocol.booth.pm/items/8664431)
 
 ## Basic Workflow
 

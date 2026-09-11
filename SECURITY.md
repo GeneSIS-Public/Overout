@@ -35,7 +35,7 @@
 
 | Version | Security Support |
 |---|---|
-| Overout v1.0.0 | Release準備中 — 正式一般公開後に対象 |
+| Overout v1.0.0 | 正式一般公開済み — 対象 |
 | Development / Internal / Unreleased | 対象外 |
 
 ## 2. Private Reporting

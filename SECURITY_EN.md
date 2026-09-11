@@ -26,7 +26,7 @@ Generally excluded: development/internal/unreleased builds, third-party modified
 
 | Version | Security Support |
 |---|---|
-| Overout v1.0.0 | Release preparation — Covered after official public distribution |
+| Overout v1.0.0 | Officially released — Covered |
 | Development / Internal / Unreleased | Not covered |
 
 ## 2. Private Reporting

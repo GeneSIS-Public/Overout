@@ -16,7 +16,7 @@
 
 現在、固定済みOverout v1.0.0 Release Packageに対する未公開Product変更はありません。
 
-## [v1.0.0] — Pending Public Release
+## [v1.0.0] — 2026-09-11
 
 ### Release
 
@@ -29,11 +29,11 @@
 | Platform | `Windows x64` |
 | Application | `Overout.exe` |
 | Release Package | `Overout_v1.0.0_Windows_x64.zip` |
-| Distribution | GeneSIS公式BOOTH — 準備中 <!-- PLACEHOLDER: BOOTH_OVEROUT --> |
-| Public Release Date | Pending <!-- PLACEHOLDER: PUBLIC_RELEASE_DATE --> |
+| Distribution | GeneSIS公式BOOTH — https://genesis-protocol.booth.pm/items/8828676 |
+| Public Release Date | 2026-09-11 |
 | Source Code | Not Publicly Released |
 
-Overout v1.0.0は、`Operation: Protocol-Overout`から成立した最初の正式Release Packageであり、現在Public Distributionの準備中です。
+Overout v1.0.0は、`Operation: Protocol-Overout`から成立した最初の正式Release Packageであり、2026-09-11にPublic Distributionを開始しました。
 
 ### Added
 
@@ -70,10 +70,10 @@ SALVAGEとPREPARATIONは同じShared Document Bufferに対するOperational Cont
 - Clipboard内容をGeneSISまたは外部Serviceへ送信するためのNetwork機能を必要としない構成
 
 ### Distribution
-- Standalone Productとして提供する準備
+- Standalone Productとしての提供開始
 - 正式Binary配布先をGeneSIS公式BOOTHとして設定
 - GitHubをPublic Documentation / Release / Verification Informationの公開場所として設定
-- G.E.N.E Founder Support購入者へ同一Release BuildをAdditional Deliverableとして提供する方針
+- Project: Code-NOAH Phase 1 Founder Support購入者へ同一Release BuildをAdditional Deliverableとして提供
 - Founder-only Binaryなし
 - Source Code非公開
 

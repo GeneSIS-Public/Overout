@@ -14,8 +14,8 @@ Overout is a local-first text acquisition / editing application for Windows x64.
 | Version | `v1.0.0` |
 | Platform | `Windows x64` |
 | Application | `Overout.exe` |
-| Status | Release Package Fixed / Public Distribution Preparing |
-| Public Release Date | Pending <!-- PLACEHOLDER: PUBLIC_RELEASE_DATE --> |
+| Status | Release Package Fixed / Public Distribution Active |
+| Public Release Date | 2026-09-11 |
 | Standalone Price | `JPY 1,000` |
 | Source Code | Not Publicly Released |
 
@@ -23,16 +23,16 @@ The official Release Package is already fixed. Updates to GitHub Documentation d
 
 ## Download / Purchase
 
-The official Overout v1.0.0 binary will be distributed through the GeneSIS Official BOOTH.
+The official Overout v1.0.0 binary is available through the GeneSIS Official BOOTH.
 
-**Standalone Product:** Preparing for release <!-- PLACEHOLDER: BOOTH_OVEROUT -->
+**Standalone Product:** https://genesis-protocol.booth.pm/items/8828676
 
 This GitHub Repository does not distribute `Overout.exe` or the official Release ZIP.
 
-Existing G.E.N.E Founder Support purchasers will receive the **same Overout v1.0.0 Release Build** as a Supplemental / Additional Deliverable. No Founder-only Overout binary is created.
+Existing Project: Code-NOAH Phase 1 Founder Support purchasers receive the **same Overout v1.0.0 Release Build** as a Supplemental / Additional Deliverable. No Founder-only Overout binary is created.
 
 - [GeneSIS BOOTH](https://genesis-protocol.booth.pm/)
-- [G.E.N.E Founder Support](https://genesis-protocol.booth.pm/items/8664431)
+- [Project: Code-NOAH Phase 1 Founder Support](https://genesis-protocol.booth.pm/items/8664431)
 
 ## Basic Workflow
 
