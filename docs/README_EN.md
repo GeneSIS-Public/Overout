@@ -42,7 +42,7 @@ This Repository does not distribute `Overout.exe` or the official Release ZIP.
 
 ## Support / Security / Privacy
 
-General inquiries, publicly shareable defects, Documentation Feedback, purchases, or G.E.N.E Founder Support:
+General inquiries, publicly shareable defects, Documentation Feedback, purchases, or Project: Code-NOAH Phase 1 Founder Support:
 
 [Contact and Support](./CONTACT_AND_SUPPORT_EN.md)
 

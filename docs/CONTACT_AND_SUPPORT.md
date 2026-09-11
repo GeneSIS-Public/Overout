@@ -18,7 +18,7 @@
 | 公開可能で再現性のある通常不具合 | GitHub Issues — Bug Report |
 | Public Documentationの誤り・不足・不明瞭な記述 | GitHub Issues — Documentation Feedback |
 | 機能・Workflow・UI等の提案 | GitHub Issues — Development Feedback |
-| 購入 / G.E.N.E Founder Support / EULA / 利用条件 / 権利 | GeneSIS公式窓口 |
+| 購入 / Project: Code-NOAH Phase 1 Founder Support / EULA / 利用条件 / 権利 | GeneSIS公式窓口 |
 | 個人情報等の取扱い・Privacy請求 | [Privacy Notice](./PRIVACY_NOTICE.md) / GeneSIS公式窓口 |
 | 非公開不具合・個別事情を含む問い合わせ | GeneSIS公式窓口 |
 | 未修正Security問題 | [Security Policy](../SECURITY.md)の非公開経路 |

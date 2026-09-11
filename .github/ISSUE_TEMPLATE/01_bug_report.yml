@@ -50,7 +50,7 @@ body:
       description: "注文番号や購入者情報は記載しないでください。 Do not include order numbers or purchaser information."
       options:
         - "GeneSIS公式BOOTH — Standalone"
-        - "G.E.N.E Founder Support — Additional Deliverable"
+        - "Project: Code-NOAH Phase 1 Founder Support — Additional Deliverable"
         - "Other / その他"
         - "Unknown / 不明"
     validations:

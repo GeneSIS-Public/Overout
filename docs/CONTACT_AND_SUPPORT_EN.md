@@ -20,7 +20,7 @@ This document defines contact routes, support scope, and the basic response poli
 | Publicly shareable and reproducible ordinary defects | GitHub Issues — Bug Report |
 | Public Documentation errors, omissions, or unclear text | GitHub Issues — Documentation Feedback |
 | Function, workflow, or UI suggestions | GitHub Issues — Development Feedback |
-| Purchases / G.E.N.E Founder Support / EULA / terms / rights | Official GeneSIS Contact |
+| Purchases / Project: Code-NOAH Phase 1 Founder Support / EULA / terms / rights | Official GeneSIS Contact |
 | Personal-information handling / Privacy requests | [Privacy Notice](./PRIVACY_NOTICE_EN.md) / Official GeneSIS Contact |
 | Non-public defects / individual private matters | Official GeneSIS Contact |
 | Unresolved Security issues | Private route in the [Security Policy](../SECURITY_EN.md) |

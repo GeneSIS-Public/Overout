@@ -58,7 +58,7 @@ GeneSIS may handle information actually visible through BOOTH or submitted by th
 - Purchaser information visible to GeneSIS
 - Order / Product / Purchase Time records
 - Information required for Overout purchase verification
-- G.E.N.E Founder Support eligibility
+- Project: Code-NOAH Phase 1 Founder Support eligibility
 - Information required to provide the Overout Additional Deliverable
 
 GeneSIS does not directly process BOOTH payments and does not seek complete card information.

@@ -46,7 +46,7 @@ GitHub Repositoryでは`Overout.exe`または正式Release ZIPを配布しませ
 
 ## Support / Security / Privacy
 
-通常問い合わせ、公開可能な不具合、Documentation Feedback、購入またはG.E.N.E Founder Support：
+通常問い合わせ、公開可能な不具合、Documentation Feedback、購入またはProject: Code-NOAH Phase 1 Founder Support：
 
 [Contact and Support](./CONTACT_AND_SUPPORT.md)
 

@@ -71,7 +71,7 @@ BOOTH等を通じ、Platform上でGeneSISに表示される範囲の情報を扱
 - BOOTH上で確認可能な購入者情報
 - Order / Product / Purchase Time等の記録
 - Overout購入確認に必要な情報
-- G.E.N.E Founder Support資格の確認
+- Project: Code-NOAH Phase 1 Founder Support資格の確認
 - Overout Additional Deliverable提供に必要な情報
 
 GeneSISはBOOTHの決済処理を直接行わず、完全なCredit Card情報等を取得することを目的としません。
@@ -108,7 +108,7 @@ GeneSIS-Operatorが各Platformの保有情報すべてを取得または管理�
 - Documentation改善
 - Release / Known Limitations / Support案内改善
 - Purchase確認
-- G.E.N.E Founder Support資格およびOverout Additional Deliverable提供確認
+- Project: Code-NOAH Phase 1 Founder Support資格およびOverout Additional Deliverable提供確認
 - EULA、権利、利用条件への対応
 - Privacy・権利請求
 - 不正利用、Spam、脅迫、嫌がらせ、Security Riskへの対応
