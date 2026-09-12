@@ -149,7 +149,7 @@ Windows AuthenticodeによるCode署名はありません。そのためSmartScr
 
 次の案内コンテンツは順次追加予定です。これらの公開はOverout v1.0.0のBinary配布開始条件ではありません。
 
-- Release記事：準備中 <!-- PLACEHOLDER: NOTE_OVEROUT_RELEASE -->
+- Release記事：[Overout v1.0.0を公開しました。コピーしたテキストを、集めて、整える。](https://note.com/genesis_protocol/n/n4a2ac2d036fb)
 - 操作案内記事：準備中 <!-- PLACEHOLDER: NOTE_OVEROUT_GUIDE -->
 - 操作案内動画：準備中 <!-- PLACEHOLDER: YOUTUBE_OVEROUT_GUIDE -->
 
@@ -157,7 +157,7 @@ Windows AuthenticodeによるCode署名はありません。そのためSmartScr
 
 Overoutは、`Project: Code-NOAH`配下の`Operation: Protocol-Overout`から生じたProductです。
 
-G.E.N.Eも`Project: Code-NOAH`に関連しますが、OveroutをG.E.N.E配下の機能として位置づけるものではありません。
+G.E.N.Eは`Project: Code-NOAH`の直系成果物です。OveroutはG.E.N.Eの下位Productではなく、`Project: Code-NOAH`配下の`Operation: Protocol-Overout`から成立した別の成果物です。
 
 - [GeneSIS_総合案内](https://note.com/genesis_protocol/n/n75a09dc02341)
 - [G.E.N.E Repository](https://github.com/GeneSIS-Public/G.E.N.E)

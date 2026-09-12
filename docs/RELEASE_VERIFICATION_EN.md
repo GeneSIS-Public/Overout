@@ -2,15 +2,16 @@
 
 [日本語](./RELEASE_VERIFICATION.md)
 
-- **Document Version:** 1.0
-- **Status:** Canonical Package Verified / Public Distribution Verification Pending
+- **Document Version:** 1.1
+- **Status:** Canonical Package Verified / Public Distribution Active / Public Distribution Verification PASS
 - **Published By:** GeneSIS
 - **Product:** `Overout v1.0.0`
 - **Platform:** `Windows x64`
+- **Last Updated:** 2026-09-12
 
 > The Japanese version is the original and authoritative version.
 
-This document is the public verification record for the identity and integrity of the official Overout v1.0.0 Release Package. Its existence alone does not indicate that public distribution has started.
+This document is the public verification record for the identity and integrity of the official Overout v1.0.0 Release Package. Public distribution is active through the GeneSIS Official BOOTH. This record covers both the Canonical Release Archive and verification of an archive re-downloaded through the actual public distribution route.
 
 ## 1. Official Release Archive
 
@@ -83,12 +84,23 @@ The Ed25519 Release Manifest Signature is for Release provenance / integrity and
 
 ## 8. Canonical / Public Distribution Status
 
+On 2026-09-12, the Overout v1.0.0 archive was re-downloaded through the actual GeneSIS Official BOOTH public distribution route and its SHA-256 was compared with the Canonical Release Archive.
+
+Re-downloaded archive SHA-256:
+
 ```text
-Canonical Archive Verification: PASS
-Public Distribution Verification: PENDING
+ba97cc581b5f765893940b6c8845b1f039c7f21847ef11ce649eb720ae126bd3
 ```
 
-After BOOTH public distribution starts, GeneSIS will re-download and verify the archive through the actual public route.
+The value matches the Canonical Release Archive, confirming byte-level identity of the re-downloaded archive.
+
+```text
+Canonical Archive Verification: PASS
+Public Distribution: ACTIVE
+Public Route SHA-256 Verification: PASS
+Public Distribution Verification: PASS
+Failures: NONE
+```
 
 ## 9. Security Concern
 

@@ -130,13 +130,13 @@ The authoritative terms for Overout v1.0.0 are the Japanese `EULA.txt` included 
 
 These materials may be added later and are not prerequisites for starting binary distribution:
 
-- Release article: Preparing <!-- PLACEHOLDER: NOTE_OVEROUT_RELEASE -->
+- Release article (Japanese): https://note.com/genesis_protocol/n/n4a2ac2d036fb
 - Operation guide article: Preparing <!-- PLACEHOLDER: NOTE_OVEROUT_GUIDE -->
 - Operation guide video: Preparing <!-- PLACEHOLDER: YOUTUBE_OVEROUT_GUIDE -->
 
 ## GeneSIS / Project: Code-NOAH
 
-Overout is a Product created through `Operation: Protocol-Overout`, an Operation within `Project: Code-NOAH`.
+G.E.N.E is a direct-line deliverable of `Project: Code-NOAH`. Overout is not a subordinate Product of G.E.N.E; it is a separate deliverable created through `Operation: Protocol-Overout` within `Project: Code-NOAH`.
 
 - [GeneSIS General Information](https://note.com/genesis_protocol/n/n75a09dc02341)
 - [G.E.N.E Repository](https://github.com/GeneSIS-Public/G.E.N.E)

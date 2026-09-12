@@ -2,15 +2,16 @@
 
 [English](./RELEASE_VERIFICATION_EN.md)
 
-- **Document Version:** 1.0
-- **Status:** Canonical Package Verified / Public Distribution Verification Pending
+- **Document Version:** 1.1
+- **Status:** Canonical Package Verified / Public Distribution Active / Public Distribution Verification PASS
 - **Published By:** GeneSIS
 - **Product:** `Overout v1.0.0`
 - **Platform:** `Windows x64`
+- **Last Updated:** 2026-09-12
 
 本書はOverout v1.0.0正式Release Packageの同一性・Integrityを確認するための公開Verification Recordです。
 
-本書の存在だけでPublic Distribution開始を示すものではありません。
+Public DistributionはGeneSIS公式BOOTHで開始済みです。本書ではCanonical Release Archiveと、実際のPublic Distribution Routeから再取得したArchiveの同一性確認を記録します。
 
 ## 1. Official Release Archive
 
@@ -125,15 +126,22 @@ Failures: NONE
 
 ## 10. Public Distribution Verification
 
-BOOTH一般配布開始後、実際のPublic Distribution RouteからArchiveを取得し、File Name、File Size、SHA-256、展開可否、主要Fileの存在を再確認します。
+2026-09-12、GeneSIS公式BOOTHの実際のPublic Distribution RouteからOverout v1.0.0 Archiveを再取得し、SHA-256をCanonical Release Archiveと照合しました。
 
-現時点：
+再取得ArchiveのSHA-256：
 
 ```text
-Public Distribution Verification: PENDING
+ba97cc581b5f765893940b6c8845b1f039c7f21847ef11ce649eb720ae126bd3
 ```
 
-確認完了後、本Sectionの状態を更新します。
+Canonical Release ArchiveのSHA-256と一致したため、再取得したArchiveが固定済みCanonical Release Archiveとbyte-levelで同一であることを確認しています。
+
+```text
+Public Distribution: ACTIVE
+Public Route SHA-256 Verification: PASS
+Public Distribution Verification: PASS
+Failures: NONE
+```
 
 ## 11. Release Integrity Concern
 
