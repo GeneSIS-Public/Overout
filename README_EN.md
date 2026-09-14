@@ -131,8 +131,8 @@ The authoritative terms for Overout v1.0.0 are the Japanese `EULA.txt` included 
 These materials may be added later and are not prerequisites for starting binary distribution:
 
 - Release article (Japanese): https://note.com/genesis_protocol/n/n4a2ac2d036fb
-- Operation guide article: Preparing <!-- PLACEHOLDER: NOTE_OVEROUT_GUIDE -->
-- Operation guide video: Preparing <!-- PLACEHOLDER: YOUTUBE_OVEROUT_GUIDE -->
+- Operation guide article (Japanese): https://note.com/genesis_protocol/n/n402676e24c27
+- Operation guide video: https://www.youtube.com/watch?v=uv82vMVvrP4
 
 ## GeneSIS / Project: Code-NOAH
 

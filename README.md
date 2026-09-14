@@ -150,8 +150,8 @@ Windows AuthenticodeによるCode署名はありません。そのためSmartScr
 次の案内コンテンツは順次追加予定です。これらの公開はOverout v1.0.0のBinary配布開始条件ではありません。
 
 - Release記事：[Overout v1.0.0を公開しました。コピーしたテキストを、集めて、整える。](https://note.com/genesis_protocol/n/n4a2ac2d036fb)
-- 操作案内記事：準備中 <!-- PLACEHOLDER: NOTE_OVEROUT_GUIDE -->
-- 操作案内動画：準備中 <!-- PLACEHOLDER: YOUTUBE_OVEROUT_GUIDE -->
+- 操作案内記事：[Overout 操作 Guide](https://note.com/genesis_protocol/n/n402676e24c27)
+- 操作案内動画：[Overout v1.0.0_Demo](https://www.youtube.com/watch?v=uv82vMVvrP4)
 
 ## GeneSIS / Project: Code-NOAH
 
